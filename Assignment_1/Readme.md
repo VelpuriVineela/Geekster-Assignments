@@ -1,5 +1,5 @@
 # Demo link
-Hosted link:https://velpurivineela.github.io/Geekster-Assignments/
+Hosted link:(https://velpurivineela.github.io/Geekster-Assignments/Assignment_1/index.html)
 ![Screenshot (54)](https://github.com/VelpuriVineela/Geekster-Assignments/assets/134683293/907c7bd3-34a4-4c69-97b7-20cd78d93d63)
 # Purpose
 - First I wrote the boilerplate code
