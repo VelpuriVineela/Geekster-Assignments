@@ -9,5 +9,4 @@
 - I used an Embedded link to show Virat Kohli's Twitter and Instagram posts.
 - I used an img tag to get the image of Virat Kohli with a source link
 - I used iframe tag to get google map and spotify with their source links
-- 
-- 
+  
