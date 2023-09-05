@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    padding: 2.5%;
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7));
+}
+
+.navbar #Home{
+    color: black;
+    background-color:white;
+    padding: 0.6% 1.5%;
+}
+
+.nav-items{
+    color: white;
+    margin-inline:5.2%;
+}
+
+.main-1{
+    background-image: url(./desktop-wallpaper-construction-site-construction-work.jpg);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-2{
+    height: 500px;
+    width: 100%;
+}
+
+.main-2 img{
+    margin: 2%;
+    height: 90%;
+    width: 29%;
+}
+
+.main-3{
+    background-color: black;
+    height: 500px;
+    padding: 2%;
+}
+
+.main-3 .part{
+      width: 45%;
+      color: white;
+      display: inline-block;
+}
+
+.main-3 img{
+    width: 45%;
+    margin: 1%;
+    display: inline-block;
+}
