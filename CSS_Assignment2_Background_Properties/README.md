@@ -1,4 +1,7 @@
 # Background Properties
+![Screenshot (83)](https://github.com/VelpuriVineela/Geekster-Assignments/assets/134683293/ef50c460-6ef1-460e-a615-b8548d09d334)
+![Screenshot (84)](https://github.com/VelpuriVineela/Geekster-Assignments/assets/134683293/4c07a09f-0890-480c-b9f6-1ee863b284f3)
+![Screenshot (85)](https://github.com/VelpuriVineela/Geekster-Assignments/assets/134683293/5ba45d76-103d-414d-bc66-c3c24c6c6c8f)
 | Tag / Selector | Property-Value Pairs | Explanation |
 | --------------- | ---------------------- | ------------- |
 | * | `margin: 0; padding: 0; box-sizing: border-box;` | Resets margin and padding for all elements and sets box-sizing to border-box. |
