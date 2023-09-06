@@ -14,3 +14,4 @@
 | .main-3 | `background-color: black; height: 500px; padding: 2%;` | Styles a container with a black background and padding. |
 | .main-3 .part | `width: 45%; color: white; display: inline-block;` | Styles text elements within the container with width, color, and inline-block display. |
 | .main-3 img | `width: 45%; margin: 1%; display: inline-block;` | Styles images within the container with width, margin, and inline-block display. |
+- Hosted Link: https://velpurivineela.github.io/Geekster-Assignments/CSS_Assignment2_Background_Properties/index.html
