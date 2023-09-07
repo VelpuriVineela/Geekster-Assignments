@@ -2,7 +2,7 @@
 ![Screenshot (88)](https://github.com/VelpuriVineela/Geekster-Assignments/assets/134683293/e71d7d2c-a4f5-48f1-94ef-ba608a61ff27)
 ![Screenshot (89)](https://github.com/VelpuriVineela/Geekster-Assignments/assets/134683293/8323dd6e-4054-4e60-84f8-84bdf3c4d387)
 | Tag / Selector  | Property-Value Pairs | Explanation |
-| --------------- | -------------------- | ----------- |
+| --------------- | -------------------- | ----------- | 
 | `body`          | `text-align: center;`<br>`font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;` | Styles the entire body with centered text alignment and a specific font-family. |
 | `.main`         | `display: flex;`<br>`flex-direction: column;`<br>`justify-content: center;`<br>`align-items: center;`<br>`margin-bottom: 0.5rem;`<br>`border-bottom: 3px solid rgba(0, 0, 0, 0.7);` | Styles a container with flex display, centered content, margin, and a border at the bottom. |
 | `.inner-main`   | `width: 30%;` | Styles inner containers with a width of 30%. |
