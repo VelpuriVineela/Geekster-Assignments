@@ -1,9 +1,9 @@
 # Typography
-![Screenshot (86)](https://github.com/VelpuriVineela/Geekster-Assignments/assets/134683293/e223d8c7-ed14-4105-bbfe-54843f5f0f2d)
-![Screenshot (87)](https://github.com/VelpuriVineela/Geekster-Assignments/assets/134683293/841bd37a-4fea-4a5a-97ae-4e62ec0bf7d1)
+![Screenshot (88)](https://github.com/VelpuriVineela/Geekster-Assignments/assets/134683293/e71d7d2c-a4f5-48f1-94ef-ba608a61ff27)
+![Screenshot (89)](https://github.com/VelpuriVineela/Geekster-Assignments/assets/134683293/8323dd6e-4054-4e60-84f8-84bdf3c4d387)
 | Tag / Selector  | Property-Value Pairs | Explanation |
 | --------------- | -------------------- | ----------- |
-| `bodY`          | `text-align: center;`<br>`font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;` | Styles the entire body with centered text alignment and a specific font-family. |
+| `body`          | `text-align: center;`<br>`font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;` | Styles the entire body with centered text alignment and a specific font-family. |
 | `.main`         | `display: flex;`<br>`flex-direction: column;`<br>`justify-content: center;`<br>`align-items: center;`<br>`margin-bottom: 0.5rem;`<br>`border-bottom: 3px solid rgba(0, 0, 0, 0.7);` | Styles a container with flex display, centered content, margin, and a border at the bottom. |
 | `.inner-main`   | `width: 30%;` | Styles inner containers with a width of 30%. |
 | `.inner-main h2`| `font-size: 1.5em;`<br>`text-align: left;` | Styles headings within inner containers with font size and left text alignment. |
