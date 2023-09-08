@@ -13,4 +13,4 @@
 | `.part p`        | `font-size: large;`<br>`line-height: 20px;`<br>`margin-bottom: 50px;` | Styles paragraphs within the part with font size, line height, and margin.                                 |
 | `.shoe`          | `width: 600px;`<br>`height: 300px;`<br>`right: -100px;`<br>`position: absolute;`<br>`top: -36px;` | Styles an image with specific dimensions and positioning.                                                    |
 | `.shoe:hover`    | `width: 900px;`<br>`height: 600px;`                         | Styles the image when hovered over with increased dimensions.                                                 |
-- Hosted Link: 
+- Hosted Link: https://velpurivineela.github.io/Geekster-Assignments/CSS_Assignment4_Shoe/index.html
