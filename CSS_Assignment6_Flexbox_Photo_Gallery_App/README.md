@@ -24,4 +24,4 @@
 | `.gallery::after`   | `content: "";`<br>`width: 350px;` | Appends an empty pseudo-element to the gallery, providing spacing on the right side. |
 
 This table provides a breakdown of the HTML tags and CSS properties used in my code.
-Hosted-Link: https://velpurivineela.github.io/Geekster-Assignments/CSS_Assignment6_Flexbox_Photo_Gallery_App/index.html
+- Hosted-Link: https://velpurivineela.github.io/Geekster-Assignments/CSS_Assignment6_Flexbox_Photo_Gallery_App/index.html
