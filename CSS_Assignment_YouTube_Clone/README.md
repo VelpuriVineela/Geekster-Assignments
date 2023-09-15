@@ -1,126 +1,67 @@
 # YouTube Clone
-| HTML | CSS |
-|------|-----|
-| ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube Clone</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <!-- Your HTML content goes here -->
-</body>
-</html>
-``` | ```css
-/* Your CSS styles go here */
 
-/* Example: */
-* {
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-}
+## Table of Contents
 
-/* Rest of your CSS styles */
-``` |
+- [Overview](#overview)
+- [HTML Tags and Properties](#html-tags-and-properties)
+- [CSS Properties and Values](#css-properties-and-values)
+- [Additional Information](#additional-information)
 
-| Header | Main | Main Left | Main Right |
-|--------|------|-----------|------------|
-| ```html
-<header>
-    <nav class="navbar">
-        <!-- Header content goes here -->
-    </nav>
-</header>
-``` | ```html
-<main>
-    <!-- Main content goes here -->
-</main>
-``` | ```html
-<aside class="main-left">
-    <!-- Main Left content goes here -->
-</aside>
-``` | ```html
-<div class="main-right">
-    <!-- Main Right content goes here -->
-</div>
-``` |
+## Overview
 
-| CSS (continued) |      |      |
-|-----------------|------|------|
-| ```css
-/* CSS for Header */
-header {
-   background-color: white;
-   height: 70px;
-   display: flex;
-   align-items: center;
-   position: fixed;
-   width: 100%;
-   top: 0;
-}
+This readme provides an overview of the HTML and CSS code for a YouTube clone webpage. It covers key tags, properties, values, their purposes, and additional details about the project.
 
-/* CSS for Navbar, Search Container, Header Icons, etc. */
-.navbar {
-   /* Styles for the navigation bar */
-}
+## HTML Tags and Properties
 
-/* Add more CSS styles for specific elements */
-/* ... */
-``` |      |      |
+| Tag          | Property            | Value             | Purpose                                       |
+|--------------|---------------------|-------------------|-----------------------------------------------|
+| `<html>`     | `lang`              | `"en"`            | Specifies the language of the document.       |
+| `<meta>`     | `charset`           | `"UTF-8"`         | Sets the character encoding for the document. |
+| `<meta>`     | `name`              | `"viewport"`      | Defines the viewport settings for responsiveness. |
+| `<title>`    |                     |                   | Sets the title of the webpage.                |
+| `<link>`     | `rel`               | `"stylesheet"`   | Links an external CSS file to the HTML file.  |
+| `<nav>`      | `class`             | `"navbar"`        | Defines a navigation bar.                     |
+| `<div>`      | `class`             | `"header-left"`   | Creates a container for the left part of the header. |
+| `<svg>`      | `xmlns`             | `"http://www.w3.org/2000/svg"` | Specifies the XML namespace for SVG images. |
+| `<img>`      | `src`               |                   | Embeds an image in the webpage.               |
+| `<input>`    | `type`              | `"search"`        | Defines an input field for search.            |
 
-| Left Category | User Personal |      |      |
-|---------------|---------------|------|------|
-| ```html
-<div class="left-category">
-    <!-- Left Category content goes here -->
-</div>
-``` | ```html
-<div class="user-personal">
-    <!-- User Personal content goes here -->
-</div>
-``` |      |      |
+## CSS Properties and Values
 
-| CSS (continued) |      |      |
-|-----------------|------|------|
-| ```css
-/* CSS for Left Category */
-.left-category {
-   /* Styles for left category */
-}
+| Property           | Value                  | Purpose                                       |
+|--------------------|------------------------|-----------------------------------------------|
+| `box-sizing`       | `border-box`           | Includes padding and border in element's total width and height. |
+| `margin`           | `0`                    | Sets margin to zero for all elements.         |
+| `padding`          | `0`                    | Sets padding to zero for all elements.        |
+| `background-color` | `white`                | Sets the background color of the header.      |
+| `height`           | `70px`                 | Defines the height of the header.            |
+| `display`          | `flex`                 | Displays elements in a flexible box layout.   |
+| `align-items`      | `center`               | Centers items vertically in a flex container. |
+| `position`         | `fixed`                | Positions the header as a fixed element.      |
+| `justify-content`  | `space-between`        | Distributes space evenly between items.       |
+| `border`           | `1px solid rgb(192, 192, 192)` | Adds a border to the search container.  |
+| `border-radius`    | `5px`                  | Rounds the corners of the search container.  |
+| `outline`          | `none`                 | Removes the outline on input focus.           |
+| `width`            | `100%`                 | Sets the width to 100% for various elements.  |
+| `min-width`        | `160px`                | Sets a minimum width for the left sidebar.    |
+| `overflow-y`       | `scroll`               | Adds a vertical scrollbar for overflowing content. |
+| `scrollbar-width`  | `none`                 | Hides the scrollbar in Firefox.               |
 
-/* Add more CSS styles for specific elements */
-/* ... */
-``` |      |      |
+## Additional Information
 
-| Main Right (continued) |      |      |
-|------------------------|------|------|
-| ```html
-<div class="cards-box">
-    <!-- Cards Box content goes here -->
-</div>
-``` |      |      |
+### What new properties did I learn about?
 
-| CSS (continued) |      |      |
-|-----------------|------|------|
-| ```css
-/* CSS for Cards Box and Cards */
-.cards-box {
-   display: flex;
-   justify-content: space-around;
-   flex-wrap: wrap;
-   gap: 30px;
-}
+- `box-sizing`, `outline`, `scrollbar-width`: These CSS properties were used to control box sizing, remove outlines on input focus, and hide scrollbars in Firefox, respectively.
 
-.card {
-   /* Styles for individual cards */
-}
+### What challenges did I face?
 
-/* Add more CSS styles for specific elements */
-/* ... */
-``` |      |      |
+- Achieving responsive design and layout alignment required careful use of flexbox and CSS properties.
+- Implementing the search input and styling proved to be challenging due to cross-browser compatibility.
 
-This table format provides a clear and organized structure for your HTML and CSS code in my README file.
+### A walkthrough of  code:
+
+- The HTML structure includes header navigation, left sidebar, and main content.
+- CSS styles were applied to achieve the desired layout and appearance.
+- Media queries can be added for responsiveness on smaller screens.
+
+- Hosted Link: https://velpurivineela.github.io/Geekster-Assignments/CSS_Assignment_YouTube_Clone/index.html
