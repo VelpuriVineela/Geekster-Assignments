@@ -77,18 +77,16 @@ header{
    min-width: 160px;
 }
 
-.main-left::-webkit-scrollbar{
-   /* Hide scrollbar for Chrome, Safari and Opera */
+.main-left::-wekit-scrollbar{
    display: none;
 }
 
 .main-left{
-   -ms-overflow-style: none;  /* IE and Edge */
-   scrollbar-width: none;  /* Firefox */
+   -ms-overflow-style: none;  
+   scrollbar-width: none;  
 }
 
 .left-category{
-   /* padding: 5% 0; */
    width: 100%;
    padding: 20px 0;
 }
