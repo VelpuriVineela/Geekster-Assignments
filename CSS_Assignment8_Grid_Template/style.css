@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 32px 0;
+    background-color: #ecf2f8;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    line-height: 1.2;
+}
+
+.main {
+    display: grid;
+
+    gap: 1.5rem;
+    width: 95%;
+    margin: auto;
+
+
+}
+
+.a1 {
+    background-color: #7541c8;
+
+    grid-area: A;
+    color: white;
+    background-image: url(./bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right 10%;
+}
+
+.a2 {
+    background-color: #48556a;
+  
+    grid-area: B;
+    color: white;
+}
+
+.a3 {
+    background-color: #ffffff;
+ 
+    grid-area: C;
+    padding: 2rem;
+    line-height: 1.5;
+}
+
+.a4 {
+    background-color: #ffffff;
+    
+    grid-area: D;
+}
+
+.a5 {
+    background-color: #19212e;
+   
+    grid-area: E;
+    color: white;
+}
+
+.profile-heading {
+    display: flex;
+    align-items: center;
+
+}
+
+.cards {
+    padding: 32px;
+    border-radius: 8px;
+}
+
+.cards img {
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+}
+
+.profile-part1 {
+    margin-inline: 1rem;
+}
+
+.profile-part2 h2 {
+    font-size: 13px;
+}
+
+.profile-part2 p {
+    font-size: 11px;
+    opacity: 0.5;
+}
+
+.para-heading {
+    font-size: 1.25rem;
+    margin-top: 1em;
+}
+
+.para-content {
+    font-size: 0.8rem;
+    opacity: 0.7;
+    margin-top: 1em;
+}
+
+.a3,
+.a4 {
+    color: hsl(217 19% 35%);
+}
+
+@media screen and (min-width: 300px) {
+    .main {
+        grid-template-areas:
+            'A'
+            'B'
+            'C'
+            'D'
+            'E';
+    }
+
+}
+
+
+@media screen and (min-width: 38em) {
+    .main {
+        grid-template-areas:
+            'A A'
+            'B C'
+            'D C'
+            'E E';
+        grid-auto-columns: 1fr;
+    }
+
+}
+
+
+@media screen and (min-width: 54em) {
+    .main {
+        grid-template-areas:
+            "A A B"
+            "C C C"
+            "D E E";
+        grid-auto-columns: 1fr;
+    }
+
+}
+
+@media screen and (min-width: 75em) {
+    .main {
+        grid-template-areas: "A A B C"
+            "D E E C";
+        grid-auto-columns: 1fr;
+
+    }
+
+}
