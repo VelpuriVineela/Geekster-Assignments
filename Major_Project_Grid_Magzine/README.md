@@ -46,18 +46,30 @@ The HTML structure defines the content hierarchy and layout of the magazine. Her
 
 The CSS styles define the visual presentation and layout of the magazine. Here are the key CSS styles and their purposes:
 
-| CSS Selector                     | Description                                                                                   |
-| --------------------------------- | --------------------------------------------------------------------------------------------- |
-| Universal Selector                | Resets padding, margin, and box-sizing for all elements.                                     |
-| `html`                            | Sets the base font size to 62.5% for easier rem unit calculations.                            |
-| `body`                            | Defines the font family, text color, and background color for the entire page.                |
-| `h1`, `h2`, `h3`, `h4`, `h5`, `h6` | Sets different font families for various header levels.                                       |
-| `a`                               | Defines styles for links, including text decoration and color.                                  |
-| `.heading`                        | Styles the heading section, including a grid layout and row gap.                               |
-| `.text`                           | Styles the main text content, including font size, letter spacing, and column width.          |
-| ... (continue for other styles) |
+| CSS Selector                     | Description                                                                                     |
+| --------------------------------- | ----------------------------------------------------------------------------------------------- |
+| Universal Selector                | Resets padding, margin, and box-sizing for all elements.                                       |
+| `html`                            | Sets the base font size to 62.5% for easier rem unit calculations.                              |
+| `body`                            | Defines the font family, text color, and background color for the entire page.                  |
+| `h1`, `h2`, `h3`, `h4`, `h5`, `h6` | Sets different font families for various header levels.                                         |
+| `a`                               | Defines styles for links, including text decoration and color.                                    |
+| `.heading`                        | Styles the heading section, including a grid layout and row gap.                                 |
+| `.text`                           | Styles the main text content, including font size, letter spacing, and column width.            |
+| `.hero`                           | Styles the hero section, making it a full-width container.                                       |
+| `.hero-title`, `.hero-subtitle`   | Styles the hero title and subtitle, including text alignment and color.                          |
+| `.author`                         | Defines styles for the author information.                                                        |
+| `.author-name a:hover`            | Styles the author's name on hover.                                                                |
+| `.publish-date`                   | Defines styles for the publication date.                                                          |
+| `.social-icons`                   | Styles the social media icons section using a grid layout.                                       |
+| `.first-paragraph::first-letter`   | Styles the first letter of the first paragraph with a large font size and color.                |
+| `.quote`                          | Styles blockquotes and quoted text.                                                               |
+| `.text-with-images`               | Styles the section with text and images using a grid layout.                                     |
+| `.lists`                          | Styles the unordered list in the curriculum history.                                              |
+| `.list-title`, `.list-subtitle`   | Styles titles and subtitles within the curriculum history.                                        |
+| `.image-wrapper`                  | Styles the image section with a grid layout.                                                     |
+| `.image-1`, `.image-3`            | Styles specific images within the image section.                                                  |
 
-## Media Queries
+### Media Queries
 
 Media queries provide responsive design by adjusting styles for different screen widths. Here are the key media queries and their effects:
 
@@ -68,6 +80,7 @@ Media queries provide responsive design by adjusting styles for different screen
 
 These media queries ensure that the magazine UI looks good and functions well on various devices and screen sizes.
 
-This README provides a comprehensive guide to the structure and styling of the Magazine UI's HTML and CSS code. It serves as a valuable reference for developers working on or maintaining the codebase.
+
+
 
 Hosted Link: https://velpurivineela.github.io/Geekster-Assignments/Major_Project_Grid_Magzine/index.html
