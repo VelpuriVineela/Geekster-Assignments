@@ -1,15 +1,14 @@
 # Magazine UI 
 
+![Screenshot (193)](https://github.com/VelpuriVineela/Geekster-Assignments/assets/134683293/de364bcc-bd0d-4e61-8440-2a2c0adfa24d)
+
 ![Screenshot (194)](https://github.com/VelpuriVineela/Geekster-Assignments/assets/134683293/dc135fa8-a2e3-45fd-8e84-4c63617619ac)
+
+![Screenshot (195)](https://github.com/VelpuriVineela/Geekster-Assignments/assets/134683293/1cde8889-8323-48f7-ac7b-85c81df1d84d)
 
 ![Screenshot (196)](https://github.com/VelpuriVineela/Geekster-Assignments/assets/134683293/77338d75-7ca1-4e43-998e-a64fc1485989)
 
 ![Screenshot (197)](https://github.com/VelpuriVineela/Geekster-Assignments/assets/134683293/f475c97d-e452-42ad-8d27-bbae6815cfed)
-
-![Screenshot (193)](https://github.com/VelpuriVineela/Geekster-Assignments/assets/134683293/de364bcc-bd0d-4e61-8440-2a2c0adfa24d)
-
-![Screenshot (195)](https://github.com/VelpuriVineela/Geekster-Assignments/assets/134683293/1cde8889-8323-48f7-ac7b-85c81df1d84d)
-
 
 
 ## Table of Contents
